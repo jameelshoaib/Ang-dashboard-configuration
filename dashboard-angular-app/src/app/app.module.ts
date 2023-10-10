@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { DxDashboardControlModule } from 'devexpress-dashboard-angular';
 import { DevExtremeModule } from 'devextreme-angular';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -12,7 +13,8 @@ import { DevExtremeModule } from 'devextreme-angular';
   imports: [
     BrowserModule,
     DxDashboardControlModule,
-    DevExtremeModule
+    DevExtremeModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

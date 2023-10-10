@@ -1,0 +1,73 @@
+{
+    "Dashboard": {
+      "Title": "",
+      "DataSources": {
+        "JsonDataSource": {
+          "Source": "",
+          "Schema": {
+            "Node": {
+              "Node": [
+                "",
+                "",
+                "",
+                {
+                  "Node": [
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      "Items": {
+        "Card": {
+          "DataItems": {
+            "Dimension": [
+              "",
+              ""
+            ],
+            "Measure": {
+              "NumericFormat": ""
+            }
+          },
+          "SeriesDimensions": {
+            "SeriesDimension": [
+              "",
+              ""
+            ]
+          },
+          "Card": {
+            "ActualValue": "",
+            "AbsoluteVariationNumericFormat": "",
+            "PercentVariationNumericFormat": "",
+            "PercentOfTargetNumericFormat": "",
+            "LayoutTemplate": {
+              "MainValue": "",
+              "SubValue": "",
+              "BottomValue": "",
+              "BottomSubValue1": "",
+              "BottomSubValue2": "",
+              "DeltaIndicator": "",
+              "Sparkline": ""
+            }
+          }
+        }
+      },
+      "LayoutTree": {
+        "LayoutGroup": {
+          "LayoutItem": ""
+        }
+      }
+    }
+  }

@@ -1,25 +1,23 @@
-<div class="header">
-  <dx-select-box
-    [width]="200"
-    [dataSource]="dashboards"
-    [(value)]="dashboardId"
-    valueExpr='id'
-    displayExpr='name'>
-  </dx-select-box>
+<dx-dashboard-control style="display: block;width:100%;height:800px;" 
+ endpoint="https://demos.devexpress.com/services/dashboard/api" 
+  [workingMode]="workingMode"
+  (onBeforeRender)="onBeforeRender($event)"
+  >
+    <dxo-data-request-options itemDataLoadingMode="OnDemand"></dxo-data-request-options>
+    <dxo-extensions>
+      <dxo-viewer-api [onItemWidgetOptionsPrepared]="onItemWidgetOptionsPrepared" 
+        [onItemCaptionToolbarUpdated]="onItemCaptionToolbarUpdated">
+      </dxo-viewer-api>
+      <dxo-data-inspector [allowInspectAggregatedData]="true" [allowInspectRawData]="true"></dxo-data-inspector>
+      <dxo-dashboard-export [allowExportDashboardItems]="true" [allowExportDashboard]="true"></dxo-dashboard-export>
+      <dxo-data-source-wizard [enableCustomSql]="true" [allowCreateNewJsonConnection]="true"
+        [wizardSettings]="{ enableOlapDataSource: true, enableFederationDataSource: true }"></dxo-data-source-wizard>
+    </dxo-extensions>
+</dx-dashboard-control>
 
-  <dx-button
-    stylingMode="contained"
-    [text]="workingModeText"
-    type="normal"
-    (onClick)="changeWorkingMode()">
-  </dx-button>
-</div>
+<!-- endpoint="https://demos.devexpress.com/services/dashboard/api" -->
 
-<div class="content">
-  <dx-dashboard-control 
-    endpoint='http://localhost:5000/api/dashboard'
-    [(dashboardId)]="dashboardId"
-    [workingMode]='workingMode'
-    (onBeforeRender)='onBeforeRender($event)'>
-  </dx-dashboard-control>
-</div>
+<!-- endpoint="dashboard-angular-app/src/assets/Dashboards/dummyData.json" -->
+
+<!-- endpoint="http://localhost:3000/data"  -->
+

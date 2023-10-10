@@ -1,0 +1,100 @@
+{
+    "Dashboard": {
+      "Title": "",
+      "DataSources": {
+        "JsonDataSource": [
+          {
+            "Source": "",
+            "Schema": {
+              "Node": {
+                "Node": {
+                  "Node": [
+                    "",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "Source": "",
+            "Schema": {
+              "Node": {
+                "Node": [
+                  "",
+                  "",
+                  "",
+                  {
+                    "Node": [
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      ""
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "Items": {
+        "ListBox": {
+          "InteractivityOptions": "",
+          "DataItems": {
+            "Dimension": "",
+            "Measure": ""
+          },
+          "HiddenMeasures": {
+            "Measure": ""
+          },
+          "FilterDimensions": {
+            "Dimension": ""
+          }
+        },
+        "Chart": {
+          "DataItems": {
+            "Measure": "",
+            "Dimension": [
+              "",
+              ""
+            ]
+          },
+          "SeriesDimensions": {
+            "SeriesDimension": ""
+          },
+          "Arguments": {
+            "Argument": ""
+          },
+          "Panes": {
+            "Pane": {
+              "Series": {
+                "Simple": {
+                  "Value": ""
+                }
+              }
+            }
+          }
+        }
+      },
+      "LayoutTree": {
+        "LayoutGroup": {
+          "LayoutGroup": {
+            "LayoutItem": [
+              "",
+              ""
+            ]
+          }
+        }
+      }
+    }
+  }
